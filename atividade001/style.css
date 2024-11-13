@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+header{
+   text-align: center;
+   color: white;
+}
+
+main > div{
+    position: relative;
+    left: 200px;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 2px 0px 0px 0px black;
+}
+
+main > div > img{
+    border-radius: 50%;
+}
+
+footer{
+   text-align: center;
+   position: relative;
+   top: 40px;
+}
+
+footer > a{
+    color: wheat;
+}
+
+footer > a:hover{
+    color: wheat;
+    background-color: gray;
+    transition-duration: 0.5s;
+}
+
