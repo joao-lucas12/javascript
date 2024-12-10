@@ -2,7 +2,7 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #454847;
 }
 
 header{
@@ -10,11 +10,24 @@ header{
    color: white;
 }
 
-main > div{
+main > #container{
     position: relative;
-    left: 200px;
-    width: 600px;
-    height: 350px;
+    height: 40vh;
+    width: 250vh;
+    background-color: #454847;
+}
+
+main > #container > #a22 {
+    position: absolute;
+    left: 30%;
+    height: 40vh;
+    width: 60vh;
+    background-color: white; 
+    border-radius: 7%;
+}
+
+main > div{
+
     background-color: white;
     border-radius: 3%;
     box-shadow: 2px 0px 0px 0px black;
