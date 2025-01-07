@@ -1,5 +1,5 @@
 var c = 1
-while (c < 5){
+do{
     console.log(`${c}`)
     c++
-}
+} while (c < 20)
