@@ -11,6 +11,10 @@ function contar() {
         let ini = Number(i.value)
         let fim = Number(f.value)
         let pas = Number(p.value)
+        if (pas <= 0){
+            window.alert('Passo invalido! Considerando passo 1')
+            pas = 1
+        }
 
         if(ini < fim){
             for(let c = ini; c <= fim; c += pas) {
